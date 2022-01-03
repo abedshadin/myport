@@ -1,0 +1,71 @@
+body{
+    font-family: 'Pacifico', cursive;
+font-family: 'Ubuntu Mono', monospace;
+margin: 0%;
+}
+.flex{
+    display: flex;
+}
+h1{
+    font-size: 50px;;
+}
+.orange{
+    color: orange;
+}
+.half-width{
+    width: 50%;
+    padding-left: 50px;
+}
+.half-width img {
+    width: 100%;
+}
+
+.anchor{
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange,tomato);
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.top-bg{
+    background-image: url(images/top-banner.png);
+    background-repeat:no-repeat ;
+}
+.dream {
+    background-image: url(images/dream-bg.png);
+    background-repeat:no-repeat ; 
+    background-position: right;
+}
+.ex{
+    background-image: url(images/exp-bg.png);
+    background-repeat:no-repeat ; 
+    background-position: left;
+}
+.ex-items{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding:5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;;
+}
+section{
+    margin-bottom: 30px;;
+}
+#fir{
+    border-left: 10px solid;
+    border-image: linear-gradient(red,tomato);
+    border-image-slice: 1;
+}
+#seco{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,tomato);
+    border-image-slice: 1;
+}
+
+footer p{
+ text-align: center;
+ font-weight: 700;
+}
